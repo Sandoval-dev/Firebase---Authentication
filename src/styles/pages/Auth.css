@@ -1,0 +1,73 @@
+.auth{
+ height: 80vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.auth .auth-container{
+
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth .auth-container input{
+
+    padding: 10px;
+    margin: 8px 0px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+}
+
+.auth .auth-container p{
+
+    cursor: pointer;
+    color:red;
+    font-size: small;
+}
+
+.auth .auth-container .auth-container-button{
+
+    border:1px solid gray;
+    padding: 5px;
+    background-color: rgb(82, 165, 65);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.auth .auth-container .auth-container-button:hover{
+
+   background-color: rgb(47, 109, 35);
+   transition: 0.2s;
+    
+}
+
+.auth .auth-container .auth-container-google{
+
+    border:1px solid gray;
+    padding: 5px;
+    background-color: rgb(201, 199, 199);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.auth .auth-container .auth-container-google:hover{
+
+    
+    background-color: rgb(137, 27, 180);
+    color:white;
+    transition: 0.4s;
+
+}
